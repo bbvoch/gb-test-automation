@@ -2,7 +2,7 @@
   "id": "2c83cfbc-0ac0-498b-a698-ee23c9de7858",
   "version": "2.0",
   "name": "GitHub",
-  "url": "https://github.com",
+  "url": "https://github.com/login",
   "tests": [{
     "id": "efeb034b-bb93-4bc9-9da1-788cf83f0a6a",
     "name": "1. GitHub Enter",
@@ -19,20 +19,6 @@
       "command": "setWindowSize",
       "target": "1330x875",
       "targets": [],
-      "value": ""
-    }, {
-      "id": "e95176b1-c0f8-4d53-841c-d42316cd6dcd",
-      "comment": "",
-      "command": "click",
-      "target": "linkText=Sign in",
-      "targets": [
-        ["linkText=Sign in", "linkText"],
-        ["css=.HeaderMenu-link:nth-child(2)", "css:finder"],
-        ["xpath=//a[contains(text(),'Sign in')]", "xpath:link"],
-        ["xpath=//a[contains(@href, '/login')]", "xpath:href"],
-        ["xpath=//div[2]/div[2]/a", "xpath:position"],
-        ["xpath=//a[contains(.,'Sign in')]", "xpath:innerText"]
-      ],
       "value": ""
     }, {
       "id": "df69bc31-8542-48f1-a900-e7d4204dd7de",
