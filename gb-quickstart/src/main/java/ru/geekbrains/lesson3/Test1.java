@@ -22,7 +22,6 @@ public class Test1 {
         options.addArguments("--disable-notifications");
         options.addArguments("--disable-popup-blocking");
         driver = new ChromeDriver(options);
-        driver.manage().window().maximize();
     }
 
     public static void main(String[] args) throws InterruptedException {
@@ -33,6 +32,10 @@ public class Test1 {
 
         driver.findElement(By.xpath(".//div[7]/details/summary/img")).click();
         driver.get(HOST + LOGIN);
+
+        if (driver != null) {
+            driver.quit();
+        }
     }
 
     private static void login() {

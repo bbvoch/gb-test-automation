@@ -10,6 +10,27 @@
             </Attribute>
           </value>
         </entry>
+        <entry key="/src/main/java/ru/geekbrains/lesson6/enums/UserMenuButtons.java">
+          <value>
+            <Attribute>
+              <option name="separator" value=";" />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="/src/main/java/ru/geekbrains/lesson6/pages/NewRepositoryPage.java">
+          <value>
+            <Attribute>
+              <option name="separator" value=";" />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="/src/main/java/ru/geekbrains/lesson6/views/CreationBar.java">
+          <value>
+            <Attribute>
+              <option name="separator" value=";" />
+            </Attribute>
+          </value>
+        </entry>
         <entry key="/src/test/java/ru/geekbrains/AppTest.java">
           <value>
             <Attribute>
@@ -25,6 +46,13 @@
           </value>
         </entry>
         <entry key="/src/test/java/ru/geekbrains/lesson4/TriangleTests.java">
+          <value>
+            <Attribute>
+              <option name="separator" value=";" />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="/src/test/java/ru/geekbrains/webui/features/navigation/NavigationTest.java">
           <value>
             <Attribute>
               <option name="separator" value=";" />

@@ -8,9 +8,6 @@ import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
-import java.util.concurrent.TimeUnit;
-
-
 public class Test2 {
 
     private static final String LOGIN_PAGE_URL = "https://github.com/login";
@@ -26,7 +23,6 @@ public class Test2 {
         options.addArguments("--disable-notifications");
         options.addArguments("--disable-popup-blocking");
         driver = new ChromeDriver(options);
-        driver.manage().window().maximize();
     }
 
     public static void main(String[] args) throws InterruptedException {
@@ -41,6 +37,10 @@ public class Test2 {
 
         driver.findElement(By.xpath(".//*[@id=\"new_repository\"]/div[4]/button")).click();
         driver.get(HOST + LOGIN + "/" + REPO_NAME);
+
+        if (driver != null) {
+            driver.quit();
+        }
     }
 
     private static void login() {
