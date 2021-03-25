@@ -1,1 +1,7 @@
-/Users/vadimchashchin/IdeaProjects/gb-quickstart/src/test/java/ru/geekbrains/AppTest.java
+/Users/vadimchashchin/IdeaProjects/gb-quickstart/src/test/java/ru/geekbrains/lesson4/TriangleTests.java
+/Users/vadimchashchin/IdeaProjects/gb-quickstart/src/test/java/ru/geekbrains/lesson5/GitHubTests.java
+/Users/vadimchashchin/IdeaProjects/gb-quickstart/src/test/java/ru/geekbrains/lesson6/features/enter/EnterTest.java
+/Users/vadimchashchin/IdeaProjects/gb-quickstart/src/test/java/ru/geekbrains/lesson6/features/repository/NewRepositoryTest.java
+/Users/vadimchashchin/IdeaProjects/gb-quickstart/src/test/java/ru/geekbrains/lesson6/base/BaseUITests.java
+/Users/vadimchashchin/IdeaProjects/gb-quickstart/src/test/java/ru/geekbrains/lesson6/features/login/PositiveLoginTest.java
+/Users/vadimchashchin/IdeaProjects/gb-quickstart/src/test/java/ru/geekbrains/lesson6/common/Configurations.java

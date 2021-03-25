@@ -1,5 +1,6 @@
 package ru.geekbrains.lesson6.views;
 
+import io.qameta.allure.Step;
 import org.junit.jupiter.api.Assertions;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -20,6 +21,7 @@ public class CreationBar extends SubMenu {
     }
 
     @Override
+    @Step("Click on sub menu button {buttons}")
     public BaseView clickSubMenuButton(SubMenuButtons buttons) {
         if (buttons instanceof CreationBarTabs) {
             switch ((CreationBarTabs) buttons) {
@@ -34,6 +36,7 @@ public class CreationBar extends SubMenu {
         }
     }
 
+    @Step("Check visibility of tab {tab}")
     public CreationBar checkTabVisibility(CreationBarTabs tab) {
         creationBarButton.click();
         Assertions.assertTrue(driver.findElement(tab.getBy()).isDisplayed());

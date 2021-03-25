@@ -1,1 +1,7 @@
-ru/geekbrains/lesson4/ListenerTest.class
+ru/geekbrains/lesson5/GitHubTests.class
+ru/geekbrains/lesson6/base/BaseUITests.class
+ru/geekbrains/lesson6/common/Configurations.class
+ru/geekbrains/lesson4/TriangleTests.class
+ru/geekbrains/lesson6/features/repository/NewRepositoryTest.class
+ru/geekbrains/lesson6/features/login/PositiveLoginTest.class
+ru/geekbrains/lesson6/features/enter/EnterTest.class

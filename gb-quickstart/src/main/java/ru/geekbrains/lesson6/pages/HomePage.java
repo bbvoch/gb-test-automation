@@ -1,5 +1,6 @@
 package ru.geekbrains.lesson6.pages;
 
+import io.qameta.allure.Step;
 import org.openqa.selenium.WebDriver;
 import ru.geekbrains.lesson6.base.BaseView;
 import ru.geekbrains.lesson6.views.CreationBar;
@@ -15,10 +16,12 @@ public class HomePage extends BaseView {
         this.creationBar = new CreationBar(driver);
     }
 
+    @Step(value = "Assert that current url equals {url}")
     public void checkUrl(String url) {
         assertEquals(driver.getCurrentUrl(), url);
     }
 
+    @Step("In Сreation bar")
     public CreationBar clickCreationBar() {
         return creationBar;
     }
